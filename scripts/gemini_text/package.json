@@ -1,0 +1,14 @@
+{
+  "name": "openmontage-gemini-text",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Text-only Gemini bridge used by tools/text/gemini_text.py",
+  "type": "module",
+  "main": "generate.mjs",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "@google/genai": "2.31.0"
+  }
+}
